@@ -15,6 +15,15 @@ def extract_indeed_page():
     max_page = pages[-1] 
     return max_page; #마지막 페이지 반환
 
+def extract_job(html):
+        title = html.find("h2", {"class": "jobTitle"}).find("span", title=True).string
+        company = html.find("span",{"class":"companyName"}).string
+        company_anchor = company.find("a")
+        company = str(company.string)
+        location = html.find("div",{"class","companyLocation"}).string
+
+        return {'title':title,'company':company, 'location':company}
+#지역 추출까지 완료. id 추출에서 막힘. 강의 2.8 (9:12) 부분
 def extract_indeed_jobs(last_page):
     jobs = []
 #for page in range(last_page):
@@ -22,9 +31,6 @@ def extract_indeed_jobs(last_page):
     soup = BeautifulSoup(result.text, "html.parser")
     results = soup.find_all("table", {"class": "jobCard_mainContent"})
     for result in results:
-        title = result.find("h2", {"class": "jobTitle"}).find("span", title=True).string
-        company = result.find("span",{"class":"companyName"}).string
-        company_anchor = company.find("a")
-        company = str(company.string)
-        print(title,company)
+        job = extract_job(result)
+        jobs.append(job)
     return jobs
