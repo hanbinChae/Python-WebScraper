@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup #원하는 HTML 파트 가져오기
 
 LIMIT = 50
 URL = f"https://www.indeed.com/jobs?q=python&limit={LIMIT}";
-
 def extract_indeed_page():
     result = requests.get(URL) #html 가져오기
     soup = BeautifulSoup(result.text, 'html.parser') #텍스트 전체를 html로 나누기
@@ -21,8 +20,11 @@ def extract_indeed_jobs(last_page):
 #for page in range(last_page):
     result = requests.get(f"{URL}&start={0 * LIMIT}")
     soup = BeautifulSoup(result.text, "html.parser")
-    results = soup.find_all("div", {"class": "heading4"})
+    results = soup.find_all("table", {"class": "jobCard_mainContent"})
     for result in results:
         title = result.find("h2", {"class": "jobTitle"}).find("span", title=True).string
-        print(title)
+        company = result.find("span",{"class":"companyName"}).string
+        company_anchor = company.find("a")
+        company = str(company.string)
+        print(title,company)
     return jobs
