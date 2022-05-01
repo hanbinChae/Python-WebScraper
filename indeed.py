@@ -21,14 +21,12 @@ def extract_job(html):
         company_anchor = company.find("a")
         company = str(company.string)
         location = html.find("div",{"class","companyLocation"}).string
-<<<<<<< HEAD
         # job_id = html["data-jk"] #title 클릭 시 얻는 id 값
         return {'title':title, 'company':company, 'location':location}
-=======
+
         job_id = html['data-jk']
         print(job_id)
         return {'title':title,'company':company, 'location':location}
->>>>>>> 427f1b94e6763615fb34c4a701b757f808c097bc
 #지역 추출까지 완료. id 추출에서 막힘. 강의 #2.8 (9:12) 부분
 def extract_indeed_jobs(last_page):
     jobs = []
