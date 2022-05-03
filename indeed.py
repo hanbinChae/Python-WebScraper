@@ -23,11 +23,12 @@ def extract_job(html):
         location = html.find("div",{"class","companyLocation"}).string
         job_id = html['data-jk']
         print(job_id)
-        return {'title':title,'company':company, 'location':location}
+        return {
+            'title':title,'company':company, 
+            'location':location ,
+            'link': f"https://www.indeed.com/viewjob?jk={job_id}&from=web&vjs=3"
+}
         
-        
-        
-#지역 추출까지 완료. id 추출에서 막힘. 강의 #2.8 (9:12) 부분
 def extract_indeed_jobs(last_page):
     jobs = []
     for page in range(last_page):
