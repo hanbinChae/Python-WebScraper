@@ -21,20 +21,21 @@ def extract_job(html):
         company_anchor = company.find("a")
         company = str(company.string)
         location = html.find("div",{"class","companyLocation"}).string
-        # job_id = html["data-jk"] #title 클릭 시 얻는 id 값
-        return {'title':title, 'company':company, 'location':location}
-
         job_id = html['data-jk']
         print(job_id)
         return {'title':title,'company':company, 'location':location}
+        
+        
+        
 #지역 추출까지 완료. id 추출에서 막힘. 강의 #2.8 (9:12) 부분
 def extract_indeed_jobs(last_page):
     jobs = []
-#for page in range(last_page):
-    result = requests.get(f"{URL}&start={0 * LIMIT}")
-    soup = BeautifulSoup(result.text, "html.parser")
-    results = soup.find_all("table", {"class": "jobCard_mainContent"})
-    for result in results:
-        job = extract_job(result)
-        jobs.append(job)
+    for page in range(last_page):
+        print(f"Scrapping page {page}")
+        result = requests.get(f"{URL}&start={page * LIMIT}")
+        soup = BeautifulSoup(result.text, "html.parser")
+        results = soup.find_all("a", {"class": "tapItem"})
+        for result in results:
+            job = extract_job(result)
+            jobs.append(job)
     return jobs
