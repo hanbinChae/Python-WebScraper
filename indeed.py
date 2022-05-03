@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup #원하는 HTML 파트 가져오기
 
 LIMIT = 50
 URL = f"https://www.indeed.com/jobs?q=python&limit={LIMIT}";
-def extract_indeed_page():
+def get_last_page():
     result = requests.get(URL) #html 가져오기
     soup = BeautifulSoup(result.text, 'html.parser') #텍스트 전체를 html로 나누기
     pagination = soup.find('div',{'class':'pagination'}); #class 이름이 'pagination'인 div 찾아 변수에 저장
@@ -22,14 +22,13 @@ def extract_job(html):
         company = str(company.string)
         location = html.find("div",{"class","companyLocation"}).string
         job_id = html['data-jk']
-        print(job_id)
         return {
             'title':title,'company':company, 
             'location':location ,
             'link': f"https://www.indeed.com/viewjob?jk={job_id}&from=web&vjs=3"
 }
         
-def extract_indeed_jobs(last_page):
+def extract_jobs(last_page):
     jobs = []
     for page in range(last_page):
         print(f"Scrapping page {page}")
@@ -39,4 +38,9 @@ def extract_indeed_jobs(last_page):
         for result in results:
             job = extract_job(result)
             jobs.append(job)
+    return jobs
+
+def get_jobs():
+    last_page = get_last_page()
+    jobs = extract_jobs(last_page)
     return jobs
