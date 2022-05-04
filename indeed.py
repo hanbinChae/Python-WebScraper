@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup #원하는 HTML 파트 가져오기
 
 LIMIT = 50
 URL = f"https://www.indeed.com/jobs?q=python&limit={LIMIT}";
+header = {"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"}
+
 def get_last_page():
     result = requests.get(URL) #html 가져오기
     soup = BeautifulSoup(result.text, 'html.parser') #텍스트 전체를 html로 나누기
