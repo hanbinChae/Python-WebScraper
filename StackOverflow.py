@@ -15,7 +15,10 @@ def get_last_page():
 def extract_job(html):
     title = html.find("h2").find("a",{"class":"s-link"}).get_text()
     location,company = html.find("div",{"class":"fs-body1"}).find_all("div",recursive=False)
-    return {"title":title,"location":location.get_text(),"company":company.get_text()}
+    location = location.get_text()
+    company = company.get_text()
+    return {"title":title,"location":location,"company":company}
+    
 
 def extract_jobs(last_page):
     jobs = []
