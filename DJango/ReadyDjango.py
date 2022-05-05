@@ -6,4 +6,5 @@ def plus(*args,**kwargs):
         result +=number
     print('합계 :',result)
 
-plus(1,2,31,24,1,245,12,5,12,5,12,5,6,215)
+#plus(1,2,31,24,1,245,12,5,12,5,12,5,6,215)
+
