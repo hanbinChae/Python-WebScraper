@@ -8,3 +8,20 @@ def plus(*args,**kwargs):
 
 #plus(1,2,31,24,1,245,12,5,12,5,12,5,6,215)
 
+class Car():
+    wheels = 4
+    doors = 4
+    windows = 4
+    seats = 4
+    name = ""
+
+    def start(self):
+        print(self.name,'I started')
+
+porsche = Car()
+porsche.color="yellow"
+porsche.name = 'porsche'
+porsche.start()
+
+ferrari = Car()
+ferrari.color = "Red"
