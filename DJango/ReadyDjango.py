@@ -9,19 +9,32 @@ def plus(*args,**kwargs):
 #plus(1,2,31,24,1,245,12,5,12,5,12,5,6,215)
 
 class Car():
-    wheels = 4
-    doors = 4
-    windows = 4
-    seats = 4
-    name = ""
+    def __init__(self,**kwargs):
+        self.name = kwargs.get("name","Noname")
+        self.wheels = 4
+        self.doors = 4
+        self.windows = 4
+        self.seats = 4
+        self.color = kwargs.get("color","white")
+        self.price = kwargs.get("price","$20")
 
-    def start(self):
-        print(self.name,'I started')
+    def __str__(self):
+        return f"Car with {self.wheels}"
 
-porsche = Car()
-porsche.color="yellow"
-porsche.name = 'porsche'
-porsche.start()
+class Convertible(Car):
 
-ferrari = Car()
-ferrari.color = "Red"
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self.time = kwargs.get("time",10)
+
+    def take_off(self):
+        return "taking off"
+
+    def __str__(self):
+        return f"Car with no roof"
+
+
+porsche = Convertible(name='porsche',color="Green",price="$80")
+print(porsche.color)
+
+mini = Car(name='BMW mini')
