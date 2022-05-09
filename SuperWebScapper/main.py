@@ -13,9 +13,9 @@ def report():
     if word:
         word = word.lower()
         jobs = get_jobs(word)
+        print(jobs)
     else:
         return redirect('/')
-        print(jobs)
     return render_template("report.html",searchingBy=word)
 
 app.run(host="0.0.0.0",port =8080)
