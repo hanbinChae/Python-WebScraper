@@ -1,5 +1,4 @@
-from flask import Flask, render_template, request
-request
+from flask import Flask, render_template, request, redirect
 
 
 
@@ -12,6 +11,10 @@ def home():
 @app.route("/report")
 def report():
     word = request.args.get("word")
+    if word:
+        word = word.lower()
+    else:
+        return redirect('/')
     return render_template("report.html",searchingBy=word)
 
 app.run(host="0.0.0.0",port =8080)
