@@ -15,7 +15,7 @@ def extract_job(html):
     company = company.get_text()
     job_id = html.find("h2").find("a",{"class":"s-link"})["href"]
     job_id = "https://stackoverflow.com/"+job_id
-    return {"title":title,"location":location,"company":company,"job_id":job_id}
+    return {"title":title,"location":location,"company":company,"link":job_id}
     
 
 def extract_jobs(last_page,URL):
