@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, redirect
 from scrapper import get_jobs
+from exporter import save_to_file
 
 app = Flask(__name__,template_folder='templates')
 db = {}
@@ -38,6 +39,7 @@ def export():
         jobs = db.get(word)
         if not jobs:
             raise Exception()
+        save_to_file(jobs)
         return f"Generate CSV for {word}"
     except:
         return redirect("/");
