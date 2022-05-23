@@ -13,11 +13,14 @@ def get_all_page(URL):
     return RESULT
 
 def get_jobs(html):
+    #지역
     if html.find("td",class_="local first") == None:
         return 0;
     else:
         location = html.find("td",class_="local first").get_text()
-
+        location = location.replace("\xa0","_")
+    #
+    
     return {"location":location}
 
 def extract_info(links):
@@ -36,6 +39,6 @@ def extract_info(links):
 
 testing = ['https://barogo.alba.co.kr/job/brand/main.asp']
 pages = get_all_page(alba_url) #링크별 url 리스트
-
-job = extract_info(testing);
+jobs_info = extract_info(testing) #직업별 정보들
+print(jobs_info)
 
