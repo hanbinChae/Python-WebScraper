@@ -15,14 +15,36 @@ def get_all_page(URL):
 def get_info(html):
     #지역
     if html.find("td",class_="local first") == None:
-        return 0;
+        place = ""
     else:
-        location = html.find("td",class_="local first").get_text()
-        location = location.replace("\xa0"," ")
+        place = html.find("td",class_="local first").get_text()
+        place = place.replace("\xa0"," ")
     #회사명/공고제목
-    title = html.find("span",class_="title").get_text()
-
-    return {"location":location,"title":title}
+    if html.find("span",class_="title")==None:
+        title = ""
+    else:
+        title = html.find("span",class_="title").string
+    #시간
+    if html.find("span",class_="time")==None:
+        time = '시간 협의'
+    else:
+        time = html.find("span",class_="time").string
+    #급여지급 방식
+    if html.find("span",class_="payIcon day") == None:
+        payday = "월급"
+    else:
+        payday = html.find("span",class_="payIcon day").string
+    #급여
+    if html.find("span",class_="number") == None:
+        pay = ""
+    else:
+        pay = html.find("span",class_="number").string
+    #등록일
+    if html.find("td",class_="regDate last") == None: 
+        date = ""
+    else:
+        date = html.find("td",class_="regDate last").string
+    return {"place":place,"title":title,"time":time,"payday":payday,"pay":pay,"date":date}
 
 
 def extract_info(links):
@@ -41,5 +63,6 @@ def extract_info(links):
 
 testing = ['https://barogo.alba.co.kr/job/brand/main.asp']
 pages = get_all_page(alba_url) #링크별 url 리스트
-jobs_info = extract_info(testing) #직업별 정보들
+jobs_info = extract_info(pages) #직업별 정보들
 print(jobs_info)
+print(len(jobs_info),'개')
