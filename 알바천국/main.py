@@ -12,16 +12,18 @@ def get_all_page(URL):
         RESULT.append(i['href'])
     return RESULT
 
-def get_jobs(html):
+def get_info(html):
     #지역
     if html.find("td",class_="local first") == None:
         return 0;
     else:
         location = html.find("td",class_="local first").get_text()
-        location = location.replace("\xa0","_")
-    #
-    
-    return {"location":location}
+        location = location.replace("\xa0"," ")
+    #회사명/공고제목
+    title = html.find("span",class_="title").get_text()
+
+    return {"location":location,"title":title}
+
 
 def extract_info(links):
     jobs = []
@@ -33,7 +35,7 @@ def extract_info(links):
         s = BeautifulSoup(r.text,"html.parser")
         p = s.find("div",id="NormalInfo").find_all("tr",class_="")
         for each_p in p:
-            r = get_jobs(each_p)
+            r = get_info(each_p)
             jobs.append(r)
     return jobs
 
@@ -41,4 +43,3 @@ testing = ['https://barogo.alba.co.kr/job/brand/main.asp']
 pages = get_all_page(alba_url) #링크별 url 리스트
 jobs_info = extract_info(testing) #직업별 정보들
 print(jobs_info)
-
