@@ -1,0 +1,31 @@
+import requests
+
+print("Welcome to IsItDown.py!")
+print("Please write a URL or URLs you want to check. (separated by comma)")
+answer = ""
+
+def finding(URLS):
+    for u in URLS:
+        if u[0:7] != 'http://':
+            u = 'http://'+u;
+        u.lower()
+        try:
+            url = requests.get(u)
+        except:
+            print(u,"is not avild URL.")
+            continue;
+        r = url.status_code
+        if r == 200:
+            print(u,"is up!")
+        elif r == 404:
+            print(u,"is down!")
+
+while True:
+    if answer == 'n':
+        print("okay, bye.")
+        break;
+    else:
+        url_list = input().replace(" ","").split(",")
+        finding(url_list)
+    answer = input("Do you want to start over? y/n ").replace(" ","")    
+     
