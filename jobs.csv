@@ -1,89 +1,78 @@
-title,company,location,link
-Baeldung, No office location," eLearning, Software Development, Web Development",https://stackoverflow.com//jobs/companies/baeldung?c=FgsHplLqkZubbWWQ&q=java
-"Cipher Tech Solutions, Inc", Elkridge; Linthicum Heights; Vienna, Computer Software,https://stackoverflow.com//jobs/companies/cipher-tech-solutions-inc?c=4OhVpDyWPrknQjFS&q=java
-Lotum GmbH, Bad Nauheim; Frankfurt am Main," Mobile Application, Mobile Game",https://stackoverflow.com//jobs/companies/lotum-gmbh?c=qc7cbBkVeRnSQVVK&q=java
-iFit, No office location, Health & Fitness,https://stackoverflow.com//jobs/companies/ifit?c=qilZQU4ImPctC2cM&q=java
-Magnolia International Ltd., Münchenstein; Singapore; New York," Agile Software Development, CMS, Enterprise Software",https://stackoverflow.com//jobs/companies/magnolia-international-ltd?c=Jzmx3ZZeiNqxOKs0&q=java
-Wise, Cherkasy; London; Tallinn," Financial Services, Financial Technology, Information Technology",https://stackoverflow.com//jobs/companies/wise?c=7SbbnoNfNK6qIsxi&q=java
-Stardog Union, Arlington," Databases, Enterprise Software, Information Technology",https://stackoverflow.com//jobs/companies/Stardog-Union?c=y69d7xMTEOoXdd8k&q=java
-National Security Agency, Augusta; San Antonio; Denver," Cybersecurity, Federal Agencies, Signals Analysis",https://stackoverflow.com//jobs/companies/national-security-agency?c=EoExxmTsR2P48HzW&q=java
-LeoVegas Mobile Gaming Group, Stockholm; Västerås; Växjö," Casino, Gaming",https://stackoverflow.com//jobs/companies/leovegas-mobile-gaming-group?c=LclShHGZH6k8RHoI&q=java
-Breuninger GmbH & Co., Düsseldorf; Stuttgart," E-Commerce, Information Technology, Retail",https://stackoverflow.com//jobs/companies/breuninger-gmbh-co?c=AE472SJw62RXGXAs&q=java
-queo GmbH, Dresden; Solothurn; Berlin," Software Consulting, Software Development, Web Development",https://stackoverflow.com//jobs/companies/queo-gmbh?c=9hIu86MwP3PKv68M&q=java&pg=2
-AIR MILES, Toronto," Big Data, DevOps, Software Development / Engineering",https://stackoverflow.com//jobs/companies/air-miles?c=i6bQculUepEGq7sc&q=java&pg=2
-IMS, Crewe; Waterloo; Manchester," Automotive, Insurance, Software Development",https://stackoverflow.com//jobs/companies/ims1?c=OD3ndpKtJkZm8O0U&q=java&pg=2
-CARIAD , Nürnberg; Wolfsburg; Mönsheim," Agile Software Development, Autonomous Driving, Computer Vision",https://stackoverflow.com//jobs/companies/cariad?c=OEdTMhDz4cPt28z6&q=java&pg=2
-ZEISS Group, München; Oberkochen; Jena," Machine Learning, Medical Devices, Virtual Reality",https://stackoverflow.com//jobs/companies/zeiss-group?c=wSZsZcs7hw9jnaco&q=java&pg=2
-Picnic, Düsseldorf; Amsterdam," E-Commerce, Information Technology, Logistics and Supply Chain",https://stackoverflow.com//jobs/companies/picnic?c=mvUJNSg2ZCkHfGvu&q=java&pg=2
-NN Group N.V., Den Haag, Financial Services,https://stackoverflow.com//jobs/companies/nn-group-nv?c=NIC24YD4JWbuA3U4&q=java&pg=2
-Copado Strategic Services, San Francisco," Cybersecurity, DevOps, Internet Infrastructure",https://stackoverflow.com//jobs/companies/copado-strategic-services?c=lodrCV4kR2FzzQOs&q=java&pg=2
-IMC Trading, Amsterdam; Chicago; The Rocks," Capital Markets, Financial Technology, High Frequency Trading",https://stackoverflow.com//jobs/companies/imc-trading?c=btZFEmN3xefHtdok&q=java&pg=2
-Smals, Gent; Kortrijk; Charleroi," Cloud Computing, Information Technology, Software Development",https://stackoverflow.com//jobs/companies/smals?c=CmvUdYAlJ4m4U7M4&q=java&pg=2
-MUFG, Phoenix; Charlotte; Dallas," Banking, Financial Services, Financial Technology",https://stackoverflow.com//jobs/companies/mufg?c=OCFcmss7hInjQmuQ&q=java&pg=3
-ING Deutschland, Frankfurt am Main; Nürnberg," Banking, Finance, Financial Technology",https://stackoverflow.com//jobs/companies/ing-deutschland?c=ia5AK3jwGDN3oyCQ&q=java&pg=3
-Sytac IT Consulting , Haarlem; Amsterdam," Agile Software Development, Consulting, Software Development / Engineering",https://stackoverflow.com//jobs/companies/sytac-it-consulting?c=o0CmnfV7pWc0tHIk&q=java&pg=3
-REWE Group, Wien; Wiener Neudorf," Information Technology, Retail",https://stackoverflow.com//jobs/companies/rewe-group?c=JPxNvGMfN8T5aapG&q=java&pg=3
-Adyen., Madrid; Chicago; Amsterdam," Financial Services, Financial Technology, Payment Network",https://stackoverflow.com//jobs/companies/adyen?c=OKmEJlygAguydCXC&q=java&pg=3
-AllTrails, San Francisco, Health & Fitness,https://stackoverflow.com//jobs/companies/alltrails?c=OpjcBHyIwDmy9F28&q=java&pg=3
-"Sailpoint Technologies, Inc.", Austin," Information Technology, IT Security, Network Security",https://stackoverflow.com//jobs/companies/sailpoint-technologies-inc?c=Jp1TqEDDuNayVZfi&q=java&pg=3
-Just Eat Takeaway.com, Enschede; Berlin; Tel Aviv-Yafo," Food & Beverage, Marketplace",https://stackoverflow.com//jobs/companies/just-eat-takeawaycom?c=OaYLIyqpEuOGIQMg&q=java&pg=3
-"Netsmart Technologies, Inc.", Overland Park; Richardson," Cloud-Based Solutions, Healthcare, Medical Software",https://stackoverflow.com//jobs/companies/netsmart-technologies-inc?c=OKgC16JaYml2E156&q=java&pg=3
-Geotab, No office location," Internet of Things, Software Development / Engineering, Telematics",https://stackoverflow.com//jobs/companies/geotab?c=LpjHbvi20yISfXlm&q=java&pg=3
-Zühlke Engineering Austria, Wien," Agile Software Development, Embedded, Enterprise Software",https://stackoverflow.com//jobs/companies/z%C3%BChlke-engineering-austria?c=KQUfj6p5bQA6vhXa&q=java&pg=4
-Enveil, Fulton," Business to Business, Security Software",https://stackoverflow.com//jobs/companies/enveil?c=H6BWXkIpgz5wMnBe&q=java&pg=4
-Dell Technologies, Seattle; Round Rock; Hopkinton," Hardware Engineering, Software Development / Engineering, Telecommunications",https://stackoverflow.com//jobs/companies/dell-technologies?c=OKaziRU5msbx4pcA&q=java&pg=4
-Zuhlke Engineering Singapore, Singapore," Consulting, Software Development / Engineering",https://stackoverflow.com//jobs/companies/zuhlke-engineering-Singapore?c=GWFuaWFaUbrAc3UA&q=java&pg=4
-Sheetz, Altoona; Claysburg; Gahanna," Food & Beverage, Retail",https://stackoverflow.com//jobs/companies/sheetz?c=OG4JkPihGpK8WKgU&q=java&pg=4
-ServiceNow, Dublin; Sydney; San Diego," Enterprise Software, Information Technology",https://stackoverflow.com//jobs/companies/servicenow?c=OI7EjQBbwqXQ0zJK&q=java&pg=4
-Relay42, Amsterdam," Artificial Intelligence, Digital Marketing, Machine Learning",https://stackoverflow.com//jobs/companies/relay42?c=IZMyCJdc9drFaKvC&q=java&pg=4
-Discovery Direct-to-Consumer (Discovery Inc.), Knoxville; Sterling; New York," Broadcast, Digital Media, Digital Video Distribution",https://stackoverflow.com//jobs/companies/discovery-direct-to-consumer-discovery-inc?c=MQTUVeAcRTFT6qpG&q=java&pg=4
-Jumbo Supermarkets, Veghel," Data & Analytics, Software Development, Test Automation",https://stackoverflow.com//jobs/companies/jumbo-supermarkets?c=Ffc88f3foduyJ0w8&q=java&pg=4
-Adference GmbH, Lüneburg," E-Commerce, Online Advertising, SaaS",https://stackoverflow.com//jobs/companies/adference-gmbh?c=LQ7JpfTV8CTVcY9i&q=java&pg=4
-Redgate Software, Cambridge," Computer Software, Databases, DevOps",https://stackoverflow.com//jobs/companies/redgate-software?c=1wKxyoXYgl52yDIc&q=java&pg=5
-Lufthansa Industry Solutions, Wolfsburg; Wetzlar; Stuttgart, IT Consulting,https://stackoverflow.com//jobs/companies/lufthansa-industry-solutions?c=OK4wAD4ZKy21uNk4&q=java&pg=5
-Bol.com, Utrecht," E-Commerce, Information Technology, Retail",https://stackoverflow.com//jobs/companies/bol-com?c=5NNxEvx3BW6JgPvy&q=java&pg=5
-Inductive Automation , Folsom," Industrial Automation, SCADA",https://stackoverflow.com//jobs/companies/inductive-automation?c=OKsHrAnmcaE3NeQ8&q=java&pg=5
-ASML, Chandler; Veldhoven; East District," Hardware Development, Semiconductors, Software Development / Engineering",https://stackoverflow.com//jobs/companies/asml?c=o64OkE4bEEMwDUXe&q=java&pg=5
-SpotMe, Sofia; Lausanne," Enterprise Software, SaaS, Virtual Events",https://stackoverflow.com//jobs/companies/spotme?c=9KnlUp38zkXHSY8&q=java&pg=5
-Zuhlke Engineering Hongkong, Hong Kong Island," Agile Software Development, Computer Software, IT Consulting",https://stackoverflow.com//jobs/companies/zuhlke-engineering-hongkong?c=M1CTBt8Bhv00Z3Uc&q=java&pg=5
-BAE Systems Digital Intelligence, Manchester; Brockworth; Leeds," Cybersecurity, Defence & Security",https://stackoverflow.com//jobs/companies/bae-systems-digital-intelligence?c=OGX7KYI6bz7J7fby&q=java&pg=5
-Adevinta, Barcelona; Paris, Information Technology,https://stackoverflow.com//jobs/companies/adevinta?c=O3toM8YrzL0tuO4w&q=java&pg=5
-Capital Group, San Antonio; Irvine; Los Angeles," Financial Services, Financial Technology",https://stackoverflow.com//jobs/companies/capital-group?c=OF6icr3nzmd3cDtK&q=java&pg=5
-PHOENIX CONTACT GmbH & Co. KG, Blomberg," Automotive, Electronics, Information Technology",https://stackoverflow.com//jobs/companies/phoenix-contact-gmbh-co-kg?c=OJugjc8s576Y382Y&q=java&pg=6
-Lendico Deutschland GmbH, Berlin," Financial Services, Financial Technology",https://stackoverflow.com//jobs/companies/lendico-deutschland-gmbh?c=M52qzPYLGcmQ5rGg&q=java&pg=6
-LinkedIn, Beijing; New York; Sunnyvale," Advertising, Online Education, Social Networking",https://stackoverflow.com//jobs/companies/linkedin?c=OEOa3IA6JDKwtNQc&q=java&pg=6
-Zühlke Engineering GmbH, Eschborn; München; Stuttgart," Agile Software Development, Enterprise Software, Software Development / Engineering",https://stackoverflow.com//jobs/companies/z%C3%BChlke-engineering-gmbh?c=M1eIKvQePSnYGCo8&q=java&pg=6
-CREDIT SUISSE AG, London; Zürich; Navi Mumbai," Banking, Financial Services, Financial Technology",https://stackoverflow.com//jobs/companies/credit-suisse-ag?c=OI1BBBM5UwOkqXRe&q=java&pg=6
-JPMorgan Chase & Co., Buenos Aires; Herzliya; Bengaluru, Financial Services,https://stackoverflow.com//jobs/companies/jpmorgan-chase-co?c=NjWXyu9b3NnEguru&q=java&pg=6
-Vertica, Cambridge; Pittsburgh," Big Data, Enterprise Software, Information Technology",https://stackoverflow.com//jobs/companies/vertica?c=OIjJKkfmKfgR9NuM&q=java&pg=6
-Pentalog, Paris; Brooklyn; Zapopan," Agile Software Development, Digital Marketing, IT Recruitment",https://stackoverflow.com//jobs/companies/pentalog?c=N0WqpRswQbtlglYQ&q=java&pg=6
-Amazon Web Services (AWS), No office location," Cloud Computing, Cloud Services, Cloud-Based Solutions",https://stackoverflow.com//jobs/companies/amazon-web-services-aws?c=OIvPaNTxY3zSj1fO&q=java&pg=6
-Discover Financial Services, Chicago; Riverwoods," Banking, Financial Services, Financial Technology",https://stackoverflow.com//jobs/companies/discover-financial-services?c=OJMorUBIUPzuLXGw&q=java&pg=6
-BAS , Veghel," Automotive, Information Services, Information Technology",https://stackoverflow.com//jobs/companies/bas?c=OGyWU1pJJWvGONFu&q=java&pg=7
-Zuhlke Engineering Ltd, Manchester; Edinburgh; London," Consulting, Software Development / Engineering",https://stackoverflow.com//jobs/companies/zuhlke-engineering-ltd?c=qiKaHRn4OrOvUtIQ&q=java&pg=7
-"DICK'S Sporting Goods, Inc. ", No office location, Retail,https://stackoverflow.com//jobs/companies/dicks-sporting-goods-inc?c=OIU01LbUpGbUBsLS&q=java&pg=7
-funda, Amsterdam," eCommerce, Information Technology",https://stackoverflow.com//jobs/companies/funda-real-estate-bv?c=Jpk1zn6UkvD5EOSQ&q=java&pg=7
-Delivery Hero SE, Berlin," eCommerce, Food & Beverage, Logistics & Distribution",https://stackoverflow.com//jobs/companies/delivery-hero-se?c=sgMY3d4ognQ71oB2&q=java&pg=7
-Apple, Cupertino; Austin; Haifa, Consumer Electronics,https://stackoverflow.com//jobs/companies/apple?c=smlsIQ2y70A8LdIs&q=java&pg=7
-Zuhlke Engineering EOOD, Sofia," Agile Software Development, Computer Software",https://stackoverflow.com//jobs/companies/zuhlke-engineering-eood?c=M1wQTejvFAQvps1G&q=java&pg=7
-Luxoft , Wrocław; Gdańsk; Torino, IT Consulting,https://stackoverflow.com//jobs/companies/luxoft?c=OFoql9wEp4FzVt7i&q=java&pg=7
-Ford Motor Company, Dearborn; Palo Alto; Detroit," Automotive, Transportation",https://stackoverflow.com//jobs/companies/ford-motor-company?c=OGsUbMAE82mbfbMY&q=java&pg=7
-Abbott, California; Orlando; Bend, Healthcare,https://stackoverflow.com//jobs/companies/abbott?c=OH3atdxbNtheGR44&q=java&pg=7
-Modus Create, Cluj-Napoca; Santa Ana; Reston," Agile Software Development, Cloud Services, Product Development",https://stackoverflow.com//jobs/companies/modus-create?c=omWnM0CQqllRwRy&q=java&pg=8
-3M Health Information Systems and The Digital Science Community , Albany; Silver Spring; Pittsburgh," Digital Health, Enterprise Software, Software Development / Engineering",https://stackoverflow.com//jobs/companies/3m-health-information-systems-and-the-digital-science-community?c=OHliBW0sDbJLpGHC&q=java&pg=8
-PayPay Corporation., No office location, Financial Technology,https://stackoverflow.com//jobs/companies/paypay-corporation?c=LGtoLAjXBXIvlu6c&q=java&pg=8
-G DATA CyberDefense AG, Bochum," Cybersecurity, IT Security",https://stackoverflow.com//jobs/companies/g-data-cyberdefense-ag?c=OHPwb87UGIvjhK6c&q=java&pg=8
-BAUHAUS AG, Mannheim," E-Commerce, Retail",https://stackoverflow.com//jobs/companies/bauhaus-ag?c=OJSra9qOwJJ0lzz2&q=java&pg=8
-Fidelity Investments, Westlake; Salt Lake City; Durham," Finance, Financial Services, Financial Technology",https://stackoverflow.com//jobs/companies/fidelity-investments?c=OHVyTmX0iCEORlYI&q=java&pg=8
-UKG (Ultimate Kronos Group), Atlanta; Weston; Toronto," Computer Software, Human Resources, Software Development",https://stackoverflow.com//jobs/companies/ukg-ultimate-kronos-group?c=5ivuBL10mcSfTIfS&q=java&pg=8
-Zühlke Engineering AG, Bern; Schlieren," Data Science, IT Security, Software Development / Engineering",https://stackoverflow.com//jobs/companies/z%C3%BChlke-engineering-ag?c=M18G2h19dYet70vC&q=java&pg=8
-Zuhlke Engineering d.o.o., Beograd," Computer Software, Hardware Engineering, Software Development / Engineering",https://stackoverflow.com//jobs/companies/zuhlke-engineering-doo?c=M1qOaZuq3GGZPQ9a&q=java&pg=8
-uShip, Austin," E-Commerce, Logistics & Distribution, Shipping",https://stackoverflow.com//jobs/companies/uship?c=2WbNAS89FKEQLFra&q=java&pg=8
-Audible, Newark; Cambridge; Seattle," Agile Software Development, Content Marketing, Web Technology",https://stackoverflow.com//jobs/companies/audible?c=c8xStPAHS03ypnb2&q=java&pg=9
-Zühlke Engineering Portugal, Porto," Agile Software Development, Data Science, DevOps",https://stackoverflow.com//jobs/companies/z%C3%BChlke-engineering-portugal?c=O9Of9GxkjCYzPwe4&q=java&pg=9
-Bloomberg LP, New York; Princeton; London," Data & Analytics, Financial Technology, News",https://stackoverflow.com//jobs/companies/bloomberg?c=3NdBKWpogs5Te1LW&q=java&pg=9
-Commonwealth Bank, Sydney; Eveleigh," Banking, Financial Services, Financial Technology",https://stackoverflow.com//jobs/companies/commonwealth-bank?c=OGmRtxLyw8cFFzUs&q=java&pg=9
-Caterpillar Inc., Chicago; Peoria; Bengaluru," Internet of Things, Manufacturing, Software Development / Engineering",https://stackoverflow.com//jobs/companies/caterpillar-inc?c=OIdH25qh8l7lAbCg&q=java&pg=9
-DraftKings, Boston; Las Vegas; Sofia," Marketplace, Software Development, Sports Technology",https://stackoverflow.com//jobs/companies/draftkings?c=hDV9h9nEVLaZQWsw&q=java&pg=9
-PAYBACK, München; Wien; Köln," Bonusprogramm, Product Development, Software Development",https://stackoverflow.com//jobs/companies/PAYBACK?c=p24QSUn2qy2xor8k&q=java&pg=9
-PwC, New York," Consulting, Product Development, Technology Consulting",https://stackoverflow.com//jobs/companies/pwc?c=BaOONdBVwmp4Gf1S&q=java&pg=9
+Title,Company,Location,Link
+Stardog Union, Arlington," Databases, Enterprise Software, Information Technology",https://stackoverflow.com//jobs/companies/Stardog-Union?c=y69d7xMTEOoXdd8k&q=python
+ZEISS Group, München; Oberkochen; Jena," Machine Learning, Medical Devices, Virtual Reality",https://stackoverflow.com//jobs/companies/zeiss-group?c=wSZsZcs7hw9jnaco&q=python
+FINN, München," Agile Software Development, Automotive, Mobility",https://stackoverflow.com//jobs/companies/finn?c=MoDdZTBXzfccxfq0&q=python
+"Cipher Tech Solutions, Inc", Elkridge; Linthicum Heights; Vienna, Computer Software,https://stackoverflow.com//jobs/companies/cipher-tech-solutions-inc?c=4OhVpDyWPrknQjFS&q=python
+ImFusion GmbH, München; Munich," Computer Vision, Image Guided Surgery, Medical Imaging",https://stackoverflow.com//jobs/companies/imfusion-gmbh?c=G4zcafjWAwjWpYU8&q=python
+CARIAD , Nürnberg; Wolfsburg; Mönsheim," Agile Software Development, Autonomous Driving, Computer Vision",https://stackoverflow.com//jobs/companies/cariad?c=OEdTMhDz4cPt28z6&q=python
+Baker Hughes, Houston; Cramlington; Groby, Software Development / Engineering,https://stackoverflow.com//jobs/companies/baker-hughes?c=OzPVFwyuyrVybDZS&q=python
+Picnic, Düsseldorf; Amsterdam," E-Commerce, Information Technology, Logistics and Supply Chain",https://stackoverflow.com//jobs/companies/picnic?c=mvUJNSg2ZCkHfGvu&q=python
+Copado Strategic Services, San Francisco," Cybersecurity, DevOps, Internet Infrastructure",https://stackoverflow.com//jobs/companies/copado-strategic-services?c=lodrCV4kR2FzzQOs&q=python
+IMC Trading, Amsterdam; Chicago; The Rocks," Capital Markets, Financial Technology, High Frequency Trading",https://stackoverflow.com//jobs/companies/imc-trading?c=btZFEmN3xefHtdok&q=python
+Creative Assembly, Horsham; Bulgaria," Computer Games, PC Games",https://stackoverflow.com//jobs/companies/creative-assembly?c=Kad4Mntrp9p2VGP6&q=python&pg=2
+atma.io , Graz; Zagreb; Leinfelden-Echterdingen," Cloud-Based Solutions, Information Technology, SaaS",https://stackoverflow.com//jobs/companies/atmaio?c=OxiN7j88ETWjfL8s&q=python&pg=2
+LeoVegas Mobile Gaming Group, Stockholm; Västerås; Växjö," Casino, Gaming",https://stackoverflow.com//jobs/companies/leovegas-mobile-gaming-group?c=LclShHGZH6k8RHoI&q=python&pg=2
+Breuninger GmbH & Co., Düsseldorf; Stuttgart," E-Commerce, Information Technology, Retail",https://stackoverflow.com//jobs/companies/breuninger-gmbh-co?c=AE472SJw62RXGXAs&q=python&pg=2
+Catawiki, Assen; Amsterdam, eCommerce,https://stackoverflow.com//jobs/companies/catawiki?c=gtoApgik3V46wogw&q=python&pg=2
+Motius GmbH, München; Stuttgart; Dubai," Electronics, Software Development / Engineering, Web Development",https://stackoverflow.com//jobs/companies/motius-gmbh?c=npLOESqUjAdvmLle&q=python&pg=2
+ING Deutschland, Frankfurt am Main; Nürnberg," Banking, Finance, Financial Technology",https://stackoverflow.com//jobs/companies/ing-deutschland?c=ia5AK3jwGDN3oyCQ&q=python&pg=2
+MUFG, Phoenix; Charlotte; Dallas," Banking, Financial Services, Financial Technology",https://stackoverflow.com//jobs/companies/mufg?c=OCFcmss7hInjQmuQ&q=python&pg=2
+Assurance, Toronto; Seattle; Fort Lauderdale," Financial Services, Insurance",https://stackoverflow.com//jobs/companies/assurance?c=Og95xe6d3uWGaenC&q=python&pg=2
+Enveil, Fulton," Business to Business, Security Software",https://stackoverflow.com//jobs/companies/enveil?c=H6BWXkIpgz5wMnBe&q=python&pg=2
+Yoco, Cape Town; Amsterdam; Johannesburg, Financial Technology,https://stackoverflow.com//jobs/companies/yoco?c=OJYtSofU8DSvVbry&q=python&pg=3
+Adference GmbH, Lüneburg," E-Commerce, Online Advertising, SaaS",https://stackoverflow.com//jobs/companies/adference-gmbh?c=LQ7JpfTV8CTVcY9i&q=python&pg=3
+Inductive Automation , Folsom," Industrial Automation, SCADA",https://stackoverflow.com//jobs/companies/inductive-automation?c=OKsHrAnmcaE3NeQ8&q=python&pg=3
+ASML, Chandler; Veldhoven; East District," Hardware Development, Semiconductors, Software Development / Engineering",https://stackoverflow.com//jobs/companies/asml?c=o64OkE4bEEMwDUXe&q=python&pg=3
+SpotMe, Sofia; Lausanne," Enterprise Software, SaaS, Virtual Events",https://stackoverflow.com//jobs/companies/spotme?c=9KnlUp38zkXHSY8&q=python&pg=3
+Capital Group, San Antonio; Irvine; Los Angeles," Financial Services, Financial Technology",https://stackoverflow.com//jobs/companies/capital-group?c=OF6icr3nzmd3cDtK&q=python&pg=3
+PHOENIX CONTACT GmbH & Co. KG, Blomberg," Automotive, Electronics, Information Technology",https://stackoverflow.com//jobs/companies/phoenix-contact-gmbh-co-kg?c=OJugjc8s576Y382Y&q=python&pg=3
+LinkedIn, Beijing; New York; Sunnyvale," Advertising, Online Education, Social Networking",https://stackoverflow.com//jobs/companies/linkedin?c=OEOa3IA6JDKwtNQc&q=python&pg=3
+JPMorgan Chase & Co., Buenos Aires; Herzliya; Bengaluru, Financial Services,https://stackoverflow.com//jobs/companies/jpmorgan-chase-co?c=NjWXyu9b3NnEguru&q=python&pg=3
+CREDIT SUISSE AG, London; Zürich; Navi Mumbai," Banking, Financial Services, Financial Technology",https://stackoverflow.com//jobs/companies/credit-suisse-ag?c=OI1BBBM5UwOkqXRe&q=python&pg=3
+Vertica, Cambridge; Pittsburgh," Big Data, Enterprise Software, Information Technology",https://stackoverflow.com//jobs/companies/vertica?c=OIjJKkfmKfgR9NuM&q=python&pg=4
+Zühlke Engineering GmbH, Eschborn; München; Stuttgart," Agile Software Development, Enterprise Software, Software Development / Engineering",https://stackoverflow.com//jobs/companies/z%C3%BChlke-engineering-gmbh?c=M1eIKvQePSnYGCo8&q=python&pg=4
+Adyen., Madrid; Chicago; Amsterdam," Financial Services, Financial Technology, Payment Network",https://stackoverflow.com//jobs/companies/adyen?c=OKmEJlygAguydCXC&q=python&pg=4
+Y42, Ho Chi Minh City; Berlin; Albania," Data & Analytics, Databases, Information Technology",https://stackoverflow.com//jobs/companies/y42?c=OHrlkaPyf5TgZiA8&q=python&pg=4
+Zuhlke Engineering Ltd, Manchester; Edinburgh; London," Consulting, Software Development / Engineering",https://stackoverflow.com//jobs/companies/zuhlke-engineering-ltd?c=qiKaHRn4OrOvUtIQ&q=python&pg=4
+AllTrails, San Francisco, Health & Fitness,https://stackoverflow.com//jobs/companies/alltrails?c=OpjcBHyIwDmy9F28&q=python&pg=4
+Delivery Hero SE, Berlin," eCommerce, Food & Beverage, Logistics & Distribution",https://stackoverflow.com//jobs/companies/delivery-hero-se?c=sgMY3d4ognQ71oB2&q=python&pg=4
+Apple, Cupertino; Austin; Haifa, Consumer Electronics,https://stackoverflow.com//jobs/companies/apple?c=smlsIQ2y70A8LdIs&q=python&pg=4
+funda, Amsterdam," eCommerce, Information Technology",https://stackoverflow.com//jobs/companies/funda-real-estate-bv?c=Jpk1zn6UkvD5EOSQ&q=python&pg=4
+Zuhlke Engineering EOOD, Sofia," Agile Software Development, Computer Software",https://stackoverflow.com//jobs/companies/zuhlke-engineering-eood?c=M1wQTejvFAQvps1G&q=python&pg=4
+Udemy, Mountain View; Austin; Denver," Education Technology, SaaS",https://stackoverflow.com//jobs/companies/udemy?c=OJodAXjmtcXstwas&q=python&pg=5
+"Sailpoint Technologies, Inc.", Austin," Information Technology, IT Security, Network Security",https://stackoverflow.com//jobs/companies/sailpoint-technologies-inc?c=Jp1TqEDDuNayVZfi&q=python&pg=5
+Thermo Fisher Scientific Careers, Hyderabad; Budapest; Austin," Biotechnology, Pharmaceuticals, Science",https://stackoverflow.com//jobs/companies/thermo-fisher-scientific-careers?c=OIpMsz4sm9qmJpni&q=python&pg=5
+Ford Motor Company, Dearborn; Palo Alto; Detroit," Automotive, Transportation",https://stackoverflow.com//jobs/companies/ford-motor-company?c=OGsUbMAE82mbfbMY&q=python&pg=5
+Abbott, California; Orlando; Bend, Healthcare,https://stackoverflow.com//jobs/companies/abbott?c=OH3atdxbNtheGR44&q=python&pg=5
+Fullscript, Ottawa; Scottsdale," Computer Software, eCommerce, Health Care",https://stackoverflow.com//jobs/companies/fullscript?c=finNYb5x8ybFjMFW&q=python&pg=5
+3M Health Information Systems and The Digital Science Community , Albany; Silver Spring; Pittsburgh," Digital Health, Enterprise Software, Software Development / Engineering",https://stackoverflow.com//jobs/companies/3m-health-information-systems-and-the-digital-science-community?c=OHliBW0sDbJLpGHC&q=python&pg=5
+PayPay Corporation., No office location, Financial Technology,https://stackoverflow.com//jobs/companies/paypay-corporation?c=LGtoLAjXBXIvlu6c&q=python&pg=5
+Geotab, No office location," Internet of Things, Software Development / Engineering, Telematics",https://stackoverflow.com//jobs/companies/geotab?c=LpjHbvi20yISfXlm&q=python&pg=5
+Fidelity Investments, Westlake; Salt Lake City; Durham," Finance, Financial Services, Financial Technology",https://stackoverflow.com//jobs/companies/fidelity-investments?c=OHVyTmX0iCEORlYI&q=python&pg=5
+The Home Depot, No office location," Retail, Technical Services, Web Technology",https://stackoverflow.com//jobs/companies/the-home-depot?c=OHxo2pEDR02MyUsE&q=python&pg=6
+Northwestern Mutual, Milwaukee; New York," Financial Services, Financial Technology",https://stackoverflow.com//jobs/companies/northwestern-mutual?c=OJGlJFMDiVpZclO0&q=python&pg=6
+Andela, No office location," Agile Software Development, Software Development / Engineering, Technology Staffing",https://stackoverflow.com//jobs/companies/andela?c=NH9nnogIzlSQXTIk&q=python&pg=6
+MBition (Mercedes Benz AG), Berlin," Agile Software Development, Automotive",https://stackoverflow.com//jobs/companies/mbition-mercedes-benz-ag?c=OHDqKEtJsUci8wla&q=python&pg=6
+Dell Technologies, Seattle; Round Rock; Hopkinton," Hardware Engineering, Software Development / Engineering, Telecommunications",https://stackoverflow.com//jobs/companies/dell-technologies?c=OKaziRU5msbx4pcA&q=python&pg=6
+Canonical, Taipei City; London; Montreal," Cloud Computing, Information Technology, Internet of Things",https://stackoverflow.com//jobs/companies/canonical?c=NQTKJiFLHVdMoZDW&q=python&pg=6
+Warner Bros. Discovery, Knoxville; Sterling; New York," Broadcast, Digital Media, Digital Video Distribution",https://stackoverflow.com//jobs/companies/warner-bros-discovery?c=MQTUVeAcRTFT6qpG&q=python&pg=6
+Flip App, Stuttgart," Agile Software Development, Messaging, Mobile Application",https://stackoverflow.com//jobs/companies/flip-app?c=OJ02K0101Alqb4Eo&q=python&pg=6
+Lufthansa Industry Solutions, Wolfsburg; Wetzlar; Stuttgart, IT Consulting,https://stackoverflow.com//jobs/companies/lufthansa-industry-solutions?c=OK4wAD4ZKy21uNk4&q=python&pg=6
+BAE Systems Digital Intelligence, Manchester; Brockworth; Leeds," Cybersecurity, Defence & Security",https://stackoverflow.com//jobs/companies/bae-systems-digital-intelligence?c=OGX7KYI6bz7J7fby&q=python&pg=6
+Adevinta, Barcelona; Paris, Information Technology,https://stackoverflow.com//jobs/companies/adevinta?c=O3toM8YrzL0tuO4w&q=python&pg=7
+Bloomberg LP, New York; Princeton; London," Data & Analytics, Financial Technology, News",https://stackoverflow.com//jobs/companies/bloomberg?c=3NdBKWpogs5Te1LW&q=python&pg=7
+Commonwealth Bank, Sydney; Eveleigh," Banking, Financial Services, Financial Technology",https://stackoverflow.com//jobs/companies/commonwealth-bank?c=OGmRtxLyw8cFFzUs&q=python&pg=7
+MOIA GmbH, Berlin; Hamburg," Automotive, Mobility Services, ridesharing",https://stackoverflow.com//jobs/companies/moia-gmbh?c=JMwroherQ48ime9G&q=python&pg=7
+Caterpillar Inc., Chicago; Peoria; Bengaluru," Internet of Things, Manufacturing, Software Development / Engineering",https://stackoverflow.com//jobs/companies/caterpillar-inc?c=OIdH25qh8l7lAbCg&q=python&pg=7
+Amazon Web Services (AWS), No office location," Cloud Computing, Cloud Services, Cloud-Based Solutions",https://stackoverflow.com//jobs/companies/amazon-web-services-aws?c=OIvPaNTxY3zSj1fO&q=python&pg=7
+DraftKings, Boston; Las Vegas; Sofia," Marketplace, Software Development, Sports Technology",https://stackoverflow.com//jobs/companies/draftkings?c=hDV9h9nEVLaZQWsw&q=python&pg=7
+Erste Digital, Wien; Praha 4; Bratislava," Banking, Finance, Financial Technology",https://stackoverflow.com//jobs/companies/erste-digital?c=OKKPAiQD1T6Aw4tG&q=python&pg=7
+"DICK'S Sporting Goods, Inc. ", No office location, Retail,https://stackoverflow.com//jobs/companies/dicks-sporting-goods-inc?c=OIU01LbUpGbUBsLS&q=python&pg=7
+Luxoft , Wrocław; Gdańsk; Torino, IT Consulting,https://stackoverflow.com//jobs/companies/luxoft?c=OFoql9wEp4FzVt7i&q=python&pg=7
+G DATA CyberDefense AG, Bochum," Cybersecurity, IT Security",https://stackoverflow.com//jobs/companies/g-data-cyberdefense-ag?c=OHPwb87UGIvjhK6c&q=python&pg=8
+BAUHAUS AG, Mannheim," E-Commerce, Retail",https://stackoverflow.com//jobs/companies/bauhaus-ag?c=OJSra9qOwJJ0lzz2&q=python&pg=8
+Zühlke Engineering AG, Bern; Schlieren," Data Science, IT Security, Software Development / Engineering",https://stackoverflow.com//jobs/companies/z%C3%BChlke-engineering-ag?c=M18G2h19dYet70vC&q=python&pg=8
+Audible, Newark; Cambridge; Seattle," Agile Software Development, Content Marketing, Web Technology",https://stackoverflow.com//jobs/companies/audible?c=c8xStPAHS03ypnb2&q=python&pg=8
+PAYBACK, München; Wien; Köln," Bonusprogramm, Product Development, Software Development",https://stackoverflow.com//jobs/companies/PAYBACK?c=p24QSUn2qy2xor8k&q=python&pg=8
+PwC, New York," Consulting, Product Development, Technology Consulting",https://stackoverflow.com//jobs/companies/pwc?c=BaOONdBVwmp4Gf1S&q=python&pg=8
+If P&C Insurance, Mölndal; Hvidovre; Espoo," Finance, Financial Services, Insurance",https://stackoverflow.com//jobs/companies/if-p-c-insurance?c=OtHaIsDN2ogt09Bm&q=python&pg=8
