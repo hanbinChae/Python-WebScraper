@@ -8,6 +8,7 @@ def get_all_page(URL):
     soup = BeautifulSoup(result.text,"html.parser")
     pages = soup.find("div",id="MainSuperBrand").find_all("a")
     RESULT = []
+
     for i in pages:
         RESULT.append(i['href'])
     return RESULT
@@ -49,16 +50,20 @@ def get_info(html):
 
 def extract_info(links):
     jobs = []
+    idx=1
     for link in set(links):
+        print(f"{idx}/{len(links)} 크롤링중...")      
         try:
             r = requests.get(link)
         except:
             continue;
         s = BeautifulSoup(r.text,"html.parser")
         p = s.find("div",id="NormalInfo").find_all("tr",class_="")
+        idx+=1
         for each_p in p:
             r = get_info(each_p)
             jobs.append(r)
+            
     return jobs
 
 testing = ['https://barogo.alba.co.kr/job/brand/main.asp']
@@ -66,3 +71,6 @@ pages = get_all_page(alba_url) #링크별 url 리스트
 jobs_info = extract_info(pages) #직업별 정보들
 print(jobs_info)
 print(len(jobs_info),'개')
+
+#엑셀 기능 추가
+# 엑셀 이름을 회사 명으로 지정
