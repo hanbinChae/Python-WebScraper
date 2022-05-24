@@ -1,4 +1,5 @@
 import requests
+import csv
 from bs4 import BeautifulSoup
 
 alba_url = "http://www.alba.co.kr"
@@ -47,12 +48,27 @@ def get_info(html):
         date = html.find("td",class_="regDate last").string
     return {"place":place,"title":title,"time":time,"payday":payday,"pay":pay,"date":date}
 
+def convert_csv(jobs,html):
+    if html.find("div",class_="keywordSearch") == None:
+        title = '업체명 확인불가'
+    elif html.find("div",class_="keywordSearch").find("a",class_="brandBtnType brandBtnArrow") == None:
+        title = '업체명 확인불가'
+    else:
+        title = html.find("div",class_="keywordSearch").find("a",class_="brandBtnType brandBtnArrow").get_text()
+    
+    file = open(f"{title}.csv",mode ="w",encoding="utf-8")
+    writer = csv.writer(file)
+    writer.writerow(['Place', 'Title', 'Time', 'Payday','Pay','Date'])
+    for job in jobs:
+        writer.writerow(list(job.values()))
+    return
 
 def extract_info(links):
     jobs = []
     idx=1
     for link in set(links):
-        print(f"{idx}/{len(links)} 크롤링중...")      
+        jobs = []
+        print(f"{idx}/{len(links)}개 사이트 크롤링중...")      
         try:
             r = requests.get(link)
         except:
@@ -63,14 +79,12 @@ def extract_info(links):
         for each_p in p:
             r = get_info(each_p)
             jobs.append(r)
-            
+            convert_csv(jobs[1:],s)
     return jobs
 
-testing = ['https://barogo.alba.co.kr/job/brand/main.asp']
 pages = get_all_page(alba_url) #링크별 url 리스트
 jobs_info = extract_info(pages) #직업별 정보들
-print(jobs_info)
-print(len(jobs_info),'개')
+
 
 #엑셀 기능 추가
 # 엑셀 이름을 회사 명으로 지정
