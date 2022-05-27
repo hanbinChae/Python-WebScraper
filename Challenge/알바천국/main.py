@@ -84,7 +84,3 @@ def extract_info(links):
 
 pages = get_all_page(alba_url) #링크별 url 리스트
 jobs_info = extract_info(pages) #직업별 정보들
-
-
-#엑셀 기능 추가
-# 엑셀 이름을 회사 명으로 지정
